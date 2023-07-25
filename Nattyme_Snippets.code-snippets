@@ -28,5 +28,31 @@
 		  "$2"
 		],
 		"description": "Background image"
+	  },
+
+	  "Pseudo Elements": {
+		"scope": "css, scss",
+		"prefix": "pe",
+		"body": [
+		  "content: \"\";",
+		  "display: block;",
+		  "width: 10px$1;",
+		  "height: 10px$2;"
+		],
+		"description": "Pseudo Elements"
+	  },
+
+	  "Hide btn-real": {
+		"scope": "css, scss",
+		"prefix": "hidebtn",
+		"body": [
+		  "width: 1px;",
+		  "height: 1px;",
+		  "opacity: 0;",
+		  "position: absolute;",
+		  "appearance: none;",
+		  "$1"
+		],
+		"description": "Hide btn-real"
 	  }
 }
