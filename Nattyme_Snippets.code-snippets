@@ -54,5 +54,15 @@
 		  "$1"
 		],
 		"description": "Hide btn-real"
+	  },
+
+	  "CSS comment": {
+		"scope": "css, scss",
+		"prefix": "/*",
+		"body": [
+		  "/*$1*/",
+		  "$2"
+		],
+		"description": "CSS comment"
 	  }
 }
